@@ -1,0 +1,75 @@
+.banner_section_container img {
+  width: 100%;
+}
+
+.banner_section_col {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner_section_col a {
+  position: absolute;
+  left: 15px;
+
+  top: 0;
+  width: 97.5%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  text-decoration: none;
+}
+.banner_section_col a h3 {
+  color: yellow;
+  font-size: 35px;
+}
+
+.banner_section_col a:hover .hover_effect_banner {
+  display: block;
+}
+.banner_section_col2 a:hover .hover_effect_banner {
+  display: block;
+}
+.banner_section_col2 a h4 {
+  color: white;
+}
+.hover_effect_banner {
+  display: none;
+}
+.hover_effect_banner p {
+  padding: 5px 10px;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.banner_section_col a:hover {
+  background-color: rgba(73, 17, 17, 0.548);
+}
+.banner_section_col2 a:hover {
+  background-color: rgba(73, 17, 17, 0.548);
+}
+
+.banner_section_col2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner_section_col2 a {
+  position: absolute;
+  left: 0;
+
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,24 @@
+.cardImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.quickSee {
+  display: none;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.CardInfo {
+  width: 65%;
+  height: 100%;
+}
+.categoryCard:hover .quickSee {
+  display: flex;
+}
+
+.categoryCard:hover .namePrice {
+  display: none;
+}
